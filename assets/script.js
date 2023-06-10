@@ -51,7 +51,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		dots[index].classList.add('dot_selected');
 		bannerText.innerHTML = slides[index].tagLine;
 	}
-
 	function slideLeft() {
 		activeIndex = activeIndex > 0 ? activeIndex - 1 : slides.length - 1;
 		changeSlide(activeIndex);
